@@ -16,6 +16,7 @@ This file is the entry point for any AI agent or contributor joining the project
 5. **Keep the handoff documents current.** Update `docs/STATUS.md` and `docs/DECISIONS.md` in the same pull request as the change they describe.
 6. **No look-ahead, no survivorship bias, realistic costs.** Any backtest must state how it avoids these.
 7. **No financial advice.** Outputs are research and education only.
+8. **Check for conflicts before every merge.** Check for conflicts in contents and code (GitHub mergeability plus a local test merge), run the tests, and report the result. Merge only on the owner's explicit instruction.
 
 ## Branch and PR workflow
 - Branch names: `feature/<topic>`, `fix/<topic>`, `research/<topic>`, `setup/<topic>`.
