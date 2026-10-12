@@ -8,6 +8,7 @@ _Last updated: 2026-10-12_
 
 ## In progress
 - Confirming scope decisions listed as "Proposed" in `docs/DECISIONS.md`.
+- Storage decision (partitioned Parquet + DuckDB) and merge-conflict rule documented in a follow-up pull request.
 
 ## Next
 1. Confirm scope: asset universe, holding-period tiers, success metrics.
