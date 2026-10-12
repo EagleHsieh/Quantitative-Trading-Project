@@ -3,7 +3,7 @@
 _Last updated: 2026-10-12_
 
 ## Done
-- GitHub repository created (`EagleHsieh/Quantitative-Trading-Project`, branch `main`).
+- GitHub repository created (`EagleHsieh/TalonQuant`, branch `main`; renamed from `Quantitative-Trading-Project`).
 - Repository skeleton and handoff documents added (this pull request).
 
 ## In progress
