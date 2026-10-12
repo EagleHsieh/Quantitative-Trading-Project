@@ -19,6 +19,7 @@ Status values: **Decided** (confirmed by the project owner) or **Proposed** (sug
 | 13 | 2026-10-12 | Hedge-fund methods (long/short, market-neutral, risk limits) as design inspiration; running an actual fund deferred | Proposed | Needs securities counsel if pursued |
 | 14 | 2026-10-12 | All data access goes through one module in `src/`, so the storage backend can be swapped | Proposed | Migration path: copy Parquet to cloud storage, load into the target system, run old and new in parallel and compare results, then switch |
 | 15 | 2026-10-12 | Before every merge, check for conflicts in contents and code and report the result | Decided | Stated by owner |
+| 16 | 2026-10-12 | Project name is **TalonQuant** (GitHub repo `EagleHsieh/TalonQuant`, renamed from `Quantitative-Trading-Project`); the README title stays "Quantitative Trading Project" because it summarizes the project at a glance | Decided | Stated by owner. Name is for now and may change. Exact-name checks on PyPI, npm, and GitHub found no conflicts on 2026-10-12; trademark and domain checks not done |
 
 ## Open decisions
 - License (none chosen yet; a public repository without a license is not open for reuse by default).
